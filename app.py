@@ -15,7 +15,7 @@ with col1:
       st.write(' - 학습 데이터 출처 : https://www.kaggle.com/')
       st.write(' - 훈련    데이터 : 1000건')
       st.write(' - 테스트 데이터 : 103건')
-      st.write(' - 모델 정확도 : -----')
+      st.write(' - 모델 정확도 : 0.4')
       st.write(' - SNS 이용시간에 따른 청소년의 우울 및 충동성 차이에 관한 논문에 따르면 청소년의 우울 및 충동성 수준은 SNS 이용 시간 하위집단보다 SNS 이용 시간 상위집단에서 더 높게 나왔다.')
 # 3.데이터시각화
 with col2:
