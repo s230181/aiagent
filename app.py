@@ -4,7 +4,7 @@ import streamlit as st
 
 # 1.기계학습 모델 파일 로드
 import joblib
-model = joblib.load('logistic_regression_model(1).pkl')
+model = joblib.load('logistic_regression_model (1).pkl')
 
 # 2.모델 설명
 st.title('소셜미디어 사용 시간과 정서적 웰빙')
