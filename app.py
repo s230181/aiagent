@@ -34,7 +34,7 @@ b = st.number_input(' 소셜미디어 하루 사용 시간을 입력하세요. '
 
 if st.button('나의 감정 확인하기'):              # 사용자가 '합불분류' 버튼을 누르면
         input_data = [[ a,b ]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
-        p = model.LogisticRegression(input_data)      # model이 분류한 값을 p에 저장한다
+        p = model.predict(input_data)      # model이 분류한 값을 p에 저장한다
         if p[0] == 1 :
               st.success('인공지능 분류 결과는 Anger입니다')
         elif p[0] == 2:
